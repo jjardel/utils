@@ -1,6 +1,6 @@
 #!/home/jjardel/fb/pkgs/envs/etl/bin/python
 
-from lw import get_logger
+from ..lw import get_logger
 from sqlalchemy import create_engine
 from pandas import read_sql_table
 
