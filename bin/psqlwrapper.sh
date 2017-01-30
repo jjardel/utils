@@ -12,7 +12,7 @@ export SQLFILE=$1
 
 psql \
     -X \
-    -U ec2_user \
+    -U $PGUSER \
     -h $PGHOSTNAME \
     -f $SQLFILE \
     --echo-all \
