@@ -16,7 +16,7 @@ psql \
     -h $PGHOSTNAME \
     -f $SQLFILE \
     --echo-all \
-    --set AUTOCOMMIT=off \
+    --set AUTOCOMMIT=on \
     --set ON_ERROR_STOP=on \
     postgres
 
